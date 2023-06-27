@@ -1,0 +1,64 @@
+{
+    "movies": [
+        {
+            "title": "My Neighbor Totoro",
+            "production_year": 1988,
+            "best_quote": "Everybody, try laughing! Then whatever scares you will go away.",
+            "video": "My_Neighbor_Totoro.mp4",
+            "poster": "my_neighbor_totoro.jpg",
+            "poster_video": "my_neighbor_totoro_video.jpg",
+            "background": "totoro_back.jpg",
+            "description": "When two girls move to the country to be near their ailing mother, they have adventures with the wondrous forest spirits who live nearby."
+        },
+        {
+            "title": "Kiki's Delivery Service",
+            "production_year": 1989,
+            "best_quote": "We need to find our own inspiration, Kiki. Sometimes it’s not easy.",
+            "video": "Kiki's_Delivery_Service.mp4",
+            "poster": "kiki.jpg",
+            "poster_video": "kiki_video.jpg",
+            "background": "kiki_back.jpg",
+            "description": "A young witch, on her mandatory year of independent life, finds fitting into a new community difficult while she supports herself by running an air courier service."
+        },
+        {
+            "title": "Howl's Moving Castle",
+            "production_year": 2004,
+            "best_quote": "One Thing You Can Always Count On Is That Hearts Change.",
+            "video": "Howl's_Moving_Castle.mp4",
+            "poster": "howl.jpg",
+            "poster_video": "howl_video.jpg",
+            "background": "howl_back.jpg",
+            "description": "When an unconfident young woman is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking castle."
+        },
+        {
+            "title": "When Marnie Was There",
+            "production_year": 2014,
+            "best_quote": "You can write books, but there’s only ever one book that’s really you.",
+            "video": "When_Marnie_Was_There.mp4",
+            "poster": "marnie.jpg",
+            "poster_video": "marnie_video.jpg",
+            "background": "marnie_back.jpg",
+            "description": "Due to 12 y.o. Anna's asthma, she's sent to stay with relatives of her guardian in the Japanese countryside. She likes to be alone, sketching. She befriends Marnie. Who is the mysterious, blonde Marnie."
+        },
+        {
+            "title": "Spirited Away",
+            "production_year": 2001,
+            "best_quote": "Once You've Met Someone You Never Really Forget Them.",
+            "video": "Spirited_Away.mp4",
+            "poster": "spirited_away.jpg",
+            "poster_video": "spirited_away_video.jpg",
+            "background": "spirited_back.png",
+            "description": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches and spirits, a world where humans are changed into beasts."
+        },
+        {
+            "title": "Ponyo",
+            "production_year": 2008,
+            "best_quote": "You should never judge others by their looks.",
+            "video": "Ponyo.mp4",
+            "poster": "ponyo.jpg",
+            "poster_video": "ponyo_video.jpg",
+            "background": "ponyo_back.jpg",
+            "description": "A five-year-old boy develops a relationship with Ponyo, a young goldfish princess who longs to become a human after falling in love with him."
+        }
+    ]
+}

@@ -1,0 +1,269 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ===== MAIN (FIRST) PAGE ===== */
+section {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    transition: .6s;
+    font-family: 'Maven Pro', sans-serif;
+}
+.main-page{
+    background-image: url(./backgrounds/back2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: .6s;
+}
+header {
+    height: 8%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header img {
+    width: 120px;
+    transition: .2s;
+    cursor: pointer;
+}
+header img:hover {
+    transform: scale(1.1);
+    transition: .2s;
+}
+span {
+    color: white;
+    cursor: pointer;
+    padding: .4rem;
+    border-radius: 5px;
+    transition: .2s;
+    text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+}
+span:hover {
+    background: rgba(255, 255, 255, 0.09);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: .2s;
+}
+.main-container {
+    display: flex;
+    height: 92%;
+    padding: 3rem;
+    justify-content: space-around;
+}
+.ghibliLogo {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: ghostwhite;
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: saturate(180%) blur(10px);
+    position: absolute;
+    padding: 1rem;
+    bottom: 7rem;
+    left: -30rem;
+    opacity: 0;
+    animation: moveLogo 2s forwards;
+}
+.ghibliLogo img {
+    width: 20rem;
+}
+@keyframes moveLogo {
+    100%{transform: translateX(30rem);}
+    100%{opacity: 1;}
+}
+.ghibliHistory {
+    font-family: 'Lobster', cursive;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: ghostwhite;
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: saturate(180%) blur(10px);
+    height: 27rem;
+    width: 30rem;
+    position: absolute;
+    top: 10rem;
+    right: -30rem;
+    opacity: 0;
+    padding: 2rem;
+    text-align: justify;
+    animation: moveHistory 2s forwards;
+    line-height: 2.5rem;
+    color: black;
+    text-shadow: 3px 4px 7px rgba(81,67,21,0.2);
+}
+@keyframes moveHistory {
+    100%{transform: translateX(-30rem);}
+    100%{opacity: 1;}
+}
+
+
+
+
+
+
+.background {
+    background-position: center;
+    background-size: cover;
+    transition: .6s;
+
+}
+.new-movies {
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+}
+button {
+  width: 10rem;
+  background-color: rgb(123, 63, 0);
+  border: 0;
+  border-radius: 56px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  outline: 0;
+  padding: 10px 15px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  overflow: hidden;
+}
+
+button:before {
+  background-color: initial;
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 200px;
+  content: "";
+  height: 60%;
+  left: 4%;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 92%;
+}
+
+button:hover {
+  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+  .button-71 {
+    padding: 16px 48px;
+  }
+}
+
+.picture {
+    height: 100%;
+    width: 30%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items:center;
+    gap: 1rem;
+    text-align: center;
+    color: white;
+}
+.poster {
+    background-position: center;
+    background-size: cover;
+    height: 28rem;
+    width: 18rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+.watchMain {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+}
+.text {
+    height: 60%;
+    width: 100%;
+    padding: 1rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+
+}
+.moreMovies {
+    height: 40%;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.newMovieCard {
+    height: 100%;
+    width: 8rem;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+.newMovieCard:hover{
+    transform: scale(1.1);
+    transition: .2s;
+    
+}
+.newMoviePoster {
+    height: 80%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    /* transition: 10s; */
+
+}
+
+
+
+
+.text1, .text2, .text3 {
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+}
+.text1 {
+    margin-top: -4rem;
+    margin-left: 2rem;
+}
+.text2 {
+    margin-left: 7rem;
+}
+.text3 {
+    margin-left: 15rem;
+}
+.best-quote {
+    font-style: italic;
+}
+.description {
+    font-weight: bold;
+}
+
